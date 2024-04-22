@@ -1,0 +1,65 @@
+.main__fileupload
+{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.form__container
+{
+    margin-top: 2rem;
+    width: 20rem;
+}
+.heading
+{
+    font-size: 1.4rem;
+    font-weight: 510;
+}
+.input__header
+{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.input__container
+{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.input__label
+{
+    font-size: 0.8rem;
+    color: grey;
+    word-wrap: break-word;
+}
+.upload__input
+{
+    border: 1px solid grey;
+    width: 100%;
+    border-radius: 2px;
+    height: 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 550;
+    margin-top: 0.5rem;
+}
+.button__container
+{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.hero__button
+{
+    background-color: #386aaf;
+    border-radius: 4px;
+    color:white;
+    border: #386aaf;
+    height: 1.6rem;
+    font-size: 1.2rem;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    width: 8rem;
+    justify-content: center;
+    cursor: pointer;
+}

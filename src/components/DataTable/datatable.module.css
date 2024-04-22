@@ -1,0 +1,56 @@
+.main__datatable
+{
+    width: 100%;
+    /* background-color: beige; */
+    height: 88vh;
+    margin-left: 5rem;
+}
+.counter__main
+{
+    margin-top: 5%;
+    width: 80%;
+    font-size: 1.1rem;
+    font-weight: 550;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10rem;
+}
+.table__heading
+{
+    font-size: 1.1rem;
+    font-weight: 550;
+}
+.table__container
+{
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-bottom: 2rem;
+}
+table
+{
+    width: 90%;
+    border: 1px solid rgb(100, 98, 98);
+    border-collapse: collapse;
+}
+th
+{
+    text-align: left;
+    background-color: yellow;
+}
+td
+{
+    font-size: 1.1rem;
+    padding: 5px;
+    font-weight: 500;
+    height: 1.1rem;
+    border-bottom: 1px solid rgb(210, 206, 206);
+}
+@media only screen and (max-width: 768px){
+    .table__container{
+        margin-left: 0%;
+        margin-top: 0%;
+    }
+    table{
+        width: 80%;
+    }
+}

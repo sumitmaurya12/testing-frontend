@@ -1,0 +1,6 @@
+.main__hero
+{
+    width: 80%;
+    display: flex;
+    overflow-x: hidden;
+}

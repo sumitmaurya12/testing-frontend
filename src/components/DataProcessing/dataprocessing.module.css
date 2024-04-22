@@ -1,0 +1,14 @@
+.main__hero
+{
+    width: 80%;
+    display: flex;
+    overflow-x: hidden;
+}
+@media only screen and (max-width: 768px){
+    .main__hero{
+        display: flex;
+        overflow-x: scroll;
+        width: 100%;
+        flex-direction: column;
+    }
+}

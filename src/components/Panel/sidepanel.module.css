@@ -1,0 +1,26 @@
+.main__sidepanel
+{
+    width: 15%;
+    /* background-color: azure; */
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.control__button
+{
+    margin-top: 2rem;
+    background-color: grey;
+    width: 90%;
+    height: 3rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+}
+@media only screen and (max-width: 768px){
+    .main__sidepanel{
+       width: 8%;
+    }
+}
